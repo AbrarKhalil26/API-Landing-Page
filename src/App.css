@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --Cyan: hsl(180, 66%, 49%);
+  --Dark-Violet: hsl(257, 27%, 26%);
+  --Red: hsl(0, 87%, 67%);
+  --Gray: hsl(0, 0%, 75%);
+  --Grayish-Violet: hsl(257, 7%, 63%);
+  --Very-Dark-Blue: hsl(255, 11%, 22%);
+  --Very-Dark-Violet: hsl(260, 8%, 14%);
+}
+body{
+  min-height: 100vh;
+}
+.General-btn,
+.General-btn:hover{
+  color: white;
+  background-color: var(--Cyan);
+}
+.General-btn:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.btn{
+  font-weight: 600;
+}
+.btn:focus{
+  border: 0;
+}
+h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+h1,h2,h3,h4,h5{
+  color: var(--Very-Dark-Blue);
+  font-weight: 700;
+}
+p{
+  color: var(--Grayish-Violet);
+  font-size: 14px;
+  line-height: 1.6rem;
+}
+.Header,
+.Links_component{
+  margin-top: 4rem;
+}

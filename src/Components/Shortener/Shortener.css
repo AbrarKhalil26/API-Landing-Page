@@ -1,0 +1,89 @@
+@import '../../App.css';
+
+.Links_component{
+    background-color: hsla(257, 27%, 26%, 0.07);
+    margin-top: 8rem;
+}
+.box-link{
+    padding: 2.3rem;
+    background-image: url('../../assest/bg-shorten-desktop.svg');
+    background-size: cover;
+    background-color: var(--Dark-Violet);
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    top: -65px;
+}
+.input-link{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 8px;
+}
+.box-link input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    flex: 3;
+}
+.RedInput{
+    border: 3px solid var(--Red) !important;
+}
+.RedInput::placeholder{
+    color: var(--Red);
+}
+.box-link button{
+    flex: 1;
+}
+.box-link span{
+    color: var(--Red);
+    font-style: italic;
+}
+
+@media (max-width: 535px) {
+    .box-link{
+        flex-direction: column;
+    }
+}
+.Link-Result{
+    position: absolute;
+    top: 110px;
+    width: calc(100% - 25px);
+}
+
+.ShortenLink{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    box-shadow: 1px 1px 2px #c8c8c8;
+}
+.shorten{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.shorten p{
+    color: var(--Cyan);
+}
+.shorten button:focus{
+    background-color: var(--Very-Dark-Violet);
+}
+.ShortenLink .origin-link{
+    width: 350px;
+    word-wrap: break-word;
+}
+.ShortenLink .origin-link p{
+    color: var(--Very-Dark-Violet);
+}
+.copied,
+.copied:hover{
+}
+.noData{
+    color: var(--Red);
+}
+p{
+    margin: 0;
+}

@@ -1,0 +1,21 @@
+@import '../../App.css';
+
+
+.navbar{
+    margin-top: 1rem;
+}
+.bg-body-tertiary{
+    background-color: initial !important;
+}
+.navbar-nav{
+    padding-left: 3rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.navbar-nav .nav-link{
+    font-weight: 600;
+    color: var(--Grayish-Violet)
+}
+.navbar-nav .nav-link:hover{
+    color: var(--Very-Dark-Violet);
+}

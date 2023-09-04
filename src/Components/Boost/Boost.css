@@ -1,0 +1,15 @@
+@import url('../../App.css');
+
+
+.Boost{
+    background-image: url('../../assest/bg-boost-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--Dark-Violet);
+
+    padding: 3rem 0;
+}
+.Boost h3{
+    color: white;
+    margin-bottom: 20px;
+}

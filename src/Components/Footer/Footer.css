@@ -1,0 +1,35 @@
+@import url('../../App.css');
+
+.Footer{
+    background-color: var(--Very-Dark-Violet);
+    padding: 3rem 0;
+}
+.Footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Footer h5{
+    color: white;
+    margin-bottom: 18px;
+}
+.Footer li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 2.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    width: fit-content;
+}
+.Footer li:hover,
+.social svg:hover
+{
+    color: var(--Cyan);
+}
+.social{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}

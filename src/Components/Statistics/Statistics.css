@@ -1,0 +1,59 @@
+.Statistics{
+    background-color: hsla(257, 27%, 26%, 0.07);
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+.Statistics .title{
+    width: 410px;
+    padding-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-card{
+    border-radius: 50%;
+    background-color: var(--Dark-Violet);
+    width: fit-content;
+    position: relative;
+    top: -35px;
+}
+.img-card img{
+    width: 70px;
+    height: 70px;
+    padding: 18px;
+}
+.Statistics .card{
+    border: 0;
+    padding: 0 2rem 1.5rem 2rem;
+    z-index: 1000;
+}
+.Statistics .parent-card{
+    position: relative;
+}
+.Statistics .parent-card::after{
+    content: '';
+    display: inline-block;
+    width: calc(100% - 50px);
+    height: 8px;
+    background-color: var(--Cyan);
+    position: absolute;
+    top:50%;
+    margin-left: 20px;
+}
+.Statistics .child:nth-child(2) .card{
+    top: 30px;
+}
+.Statistics .child:nth-child(3) .card{
+    top: 60px;
+}
+
+
+@media (max-width: 991.20px) {
+    .Statistics .parent-card::after{
+        display: none;
+    }
+    .Statistics .child:nth-child(2) .card,
+    .Statistics .child:nth-child(3) .card{
+        top: 0;
+    }
+
+}
